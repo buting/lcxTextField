@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6378F4BD1C3DF71300AE8826 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6378F4BC1C3DF71300AE8826 /* main.m */; };
+		6378F4C01C3DF71300AE8826 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6378F4BF1C3DF71300AE8826 /* AppDelegate.m */; };
+		6378F4C31C3DF71300AE8826 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6378F4C21C3DF71300AE8826 /* ViewController.m */; };
+		6378F4C61C3DF71300AE8826 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6378F4C41C3DF71300AE8826 /* Main.storyboard */; };
+		6378F4C81C3DF71300AE8826 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6378F4C71C3DF71300AE8826 /* Assets.xcassets */; };
+		6378F4CB1C3DF71300AE8826 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6378F4C91C3DF71300AE8826 /* LaunchScreen.storyboard */; };
+		6378F4D61C3DF71300AE8826 /* LCXUITextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6378F4D51C3DF71300AE8826 /* LCXUITextFieldTests.m */; };
+		6378F4E11C3DF71300AE8826 /* LCXUITextFieldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6378F4E01C3DF71300AE8826 /* LCXUITextFieldUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6378F4D21C3DF71300AE8826 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6378F4B01C3DF71300AE8826 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6378F4B71C3DF71300AE8826;
+			remoteInfo = LCXUITextField;
+		};
+		6378F4DD1C3DF71300AE8826 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6378F4B01C3DF71300AE8826 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6378F4B71C3DF71300AE8826;
+			remoteInfo = LCXUITextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6378F4B81C3DF71300AE8826 /* LCXUITextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCXUITextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6378F4BC1C3DF71300AE8826 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6378F4BE1C3DF71300AE8826 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6378F4BF1C3DF71300AE8826 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6378F4C11C3DF71300AE8826 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6378F4C21C3DF71300AE8826 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6378F4C51C3DF71300AE8826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6378F4C71C3DF71300AE8826 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6378F4CA1C3DF71300AE8826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6378F4CC1C3DF71300AE8826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6378F4D11C3DF71300AE8826 /* LCXUITextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LCXUITextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6378F4D51C3DF71300AE8826 /* LCXUITextFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCXUITextFieldTests.m; sourceTree = "<group>"; };
+		6378F4D71C3DF71300AE8826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6378F4DC1C3DF71300AE8826 /* LCXUITextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LCXUITextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6378F4E01C3DF71300AE8826 /* LCXUITextFieldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCXUITextFieldUITests.m; sourceTree = "<group>"; };
+		6378F4E21C3DF71300AE8826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6378F4B51C3DF71300AE8826 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6378F4CE1C3DF71300AE8826 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6378F4D91C3DF71300AE8826 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6378F4AF1C3DF71300AE8826 = {
+			isa = PBXGroup;
+			children = (
+				6378F4BA1C3DF71300AE8826 /* LCXUITextField */,
+				6378F4D41C3DF71300AE8826 /* LCXUITextFieldTests */,
+				6378F4DF1C3DF71300AE8826 /* LCXUITextFieldUITests */,
+				6378F4B91C3DF71300AE8826 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6378F4B91C3DF71300AE8826 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6378F4B81C3DF71300AE8826 /* LCXUITextField.app */,
+				6378F4D11C3DF71300AE8826 /* LCXUITextFieldTests.xctest */,
+				6378F4DC1C3DF71300AE8826 /* LCXUITextFieldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6378F4BA1C3DF71300AE8826 /* LCXUITextField */ = {
+			isa = PBXGroup;
+			children = (
+				6378F4BE1C3DF71300AE8826 /* AppDelegate.h */,
+				6378F4BF1C3DF71300AE8826 /* AppDelegate.m */,
+				6378F4C11C3DF71300AE8826 /* ViewController.h */,
+				6378F4C21C3DF71300AE8826 /* ViewController.m */,
+				6378F4C41C3DF71300AE8826 /* Main.storyboard */,
+				6378F4C71C3DF71300AE8826 /* Assets.xcassets */,
+				6378F4C91C3DF71300AE8826 /* LaunchScreen.storyboard */,
+				6378F4CC1C3DF71300AE8826 /* Info.plist */,
+				6378F4BB1C3DF71300AE8826 /* Supporting Files */,
+			);
+			path = LCXUITextField;
+			sourceTree = "<group>";
+		};
+		6378F4BB1C3DF71300AE8826 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6378F4BC1C3DF71300AE8826 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6378F4D41C3DF71300AE8826 /* LCXUITextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				6378F4D51C3DF71300AE8826 /* LCXUITextFieldTests.m */,
+				6378F4D71C3DF71300AE8826 /* Info.plist */,
+			);
+			path = LCXUITextFieldTests;
+			sourceTree = "<group>";
+		};
+		6378F4DF1C3DF71300AE8826 /* LCXUITextFieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6378F4E01C3DF71300AE8826 /* LCXUITextFieldUITests.m */,
+				6378F4E21C3DF71300AE8826 /* Info.plist */,
+			);
+			path = LCXUITextFieldUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6378F4B71C3DF71300AE8826 /* LCXUITextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6378F4E51C3DF71300AE8826 /* Build configuration list for PBXNativeTarget "LCXUITextField" */;
+			buildPhases = (
+				6378F4B41C3DF71300AE8826 /* Sources */,
+				6378F4B51C3DF71300AE8826 /* Frameworks */,
+				6378F4B61C3DF71300AE8826 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LCXUITextField;
+			productName = LCXUITextField;
+			productReference = 6378F4B81C3DF71300AE8826 /* LCXUITextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6378F4D01C3DF71300AE8826 /* LCXUITextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6378F4E81C3DF71300AE8826 /* Build configuration list for PBXNativeTarget "LCXUITextFieldTests" */;
+			buildPhases = (
+				6378F4CD1C3DF71300AE8826 /* Sources */,
+				6378F4CE1C3DF71300AE8826 /* Frameworks */,
+				6378F4CF1C3DF71300AE8826 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6378F4D31C3DF71300AE8826 /* PBXTargetDependency */,
+			);
+			name = LCXUITextFieldTests;
+			productName = LCXUITextFieldTests;
+			productReference = 6378F4D11C3DF71300AE8826 /* LCXUITextFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6378F4DB1C3DF71300AE8826 /* LCXUITextFieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6378F4EB1C3DF71300AE8826 /* Build configuration list for PBXNativeTarget "LCXUITextFieldUITests" */;
+			buildPhases = (
+				6378F4D81C3DF71300AE8826 /* Sources */,
+				6378F4D91C3DF71300AE8826 /* Frameworks */,
+				6378F4DA1C3DF71300AE8826 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6378F4DE1C3DF71300AE8826 /* PBXTargetDependency */,
+			);
+			name = LCXUITextFieldUITests;
+			productName = LCXUITextFieldUITests;
+			productReference = 6378F4DC1C3DF71300AE8826 /* LCXUITextFieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6378F4B01C3DF71300AE8826 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = buTing;
+				TargetAttributes = {
+					6378F4B71C3DF71300AE8826 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					6378F4D01C3DF71300AE8826 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 6378F4B71C3DF71300AE8826;
+					};
+					6378F4DB1C3DF71300AE8826 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 6378F4B71C3DF71300AE8826;
+					};
+				};
+			};
+			buildConfigurationList = 6378F4B31C3DF71300AE8826 /* Build configuration list for PBXProject "LCXUITextField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6378F4AF1C3DF71300AE8826;
+			productRefGroup = 6378F4B91C3DF71300AE8826 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6378F4B71C3DF71300AE8826 /* LCXUITextField */,
+				6378F4D01C3DF71300AE8826 /* LCXUITextFieldTests */,
+				6378F4DB1C3DF71300AE8826 /* LCXUITextFieldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6378F4B61C3DF71300AE8826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6378F4CB1C3DF71300AE8826 /* LaunchScreen.storyboard in Resources */,
+				6378F4C81C3DF71300AE8826 /* Assets.xcassets in Resources */,
+				6378F4C61C3DF71300AE8826 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6378F4CF1C3DF71300AE8826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6378F4DA1C3DF71300AE8826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6378F4B41C3DF71300AE8826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6378F4C31C3DF71300AE8826 /* ViewController.m in Sources */,
+				6378F4C01C3DF71300AE8826 /* AppDelegate.m in Sources */,
+				6378F4BD1C3DF71300AE8826 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6378F4CD1C3DF71300AE8826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6378F4D61C3DF71300AE8826 /* LCXUITextFieldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6378F4D81C3DF71300AE8826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6378F4E11C3DF71300AE8826 /* LCXUITextFieldUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6378F4D31C3DF71300AE8826 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6378F4B71C3DF71300AE8826 /* LCXUITextField */;
+			targetProxy = 6378F4D21C3DF71300AE8826 /* PBXContainerItemProxy */;
+		};
+		6378F4DE1C3DF71300AE8826 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6378F4B71C3DF71300AE8826 /* LCXUITextField */;
+			targetProxy = 6378F4DD1C3DF71300AE8826 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6378F4C41C3DF71300AE8826 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6378F4C51C3DF71300AE8826 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6378F4C91C3DF71300AE8826 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6378F4CA1C3DF71300AE8826 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6378F4E31C3DF71300AE8826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6378F4E41C3DF71300AE8826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6378F4E61C3DF71300AE8826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LCXUITextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.bt.LCXUITextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6378F4E71C3DF71300AE8826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LCXUITextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.bt.LCXUITextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6378F4E91C3DF71300AE8826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LCXUITextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.bt.LCXUITextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LCXUITextField.app/LCXUITextField";
+			};
+			name = Debug;
+		};
+		6378F4EA1C3DF71300AE8826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LCXUITextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.bt.LCXUITextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LCXUITextField.app/LCXUITextField";
+			};
+			name = Release;
+		};
+		6378F4EC1C3DF71300AE8826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LCXUITextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.bt.LCXUITextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LCXUITextField;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6378F4ED1C3DF71300AE8826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LCXUITextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.bt.LCXUITextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LCXUITextField;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6378F4B31C3DF71300AE8826 /* Build configuration list for PBXProject "LCXUITextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6378F4E31C3DF71300AE8826 /* Debug */,
+				6378F4E41C3DF71300AE8826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6378F4E51C3DF71300AE8826 /* Build configuration list for PBXNativeTarget "LCXUITextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6378F4E61C3DF71300AE8826 /* Debug */,
+				6378F4E71C3DF71300AE8826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6378F4E81C3DF71300AE8826 /* Build configuration list for PBXNativeTarget "LCXUITextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6378F4E91C3DF71300AE8826 /* Debug */,
+				6378F4EA1C3DF71300AE8826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6378F4EB1C3DF71300AE8826 /* Build configuration list for PBXNativeTarget "LCXUITextFieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6378F4EC1C3DF71300AE8826 /* Debug */,
+				6378F4ED1C3DF71300AE8826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6378F4B01C3DF71300AE8826 /* Project object */;
+}
